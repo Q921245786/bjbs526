@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>
+不健不散往期视频</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		    <script type="text/javascript">
+		var itemHeight = 40;
+		var dividerHeight = 1;
+		
+		function openMenu(obj) {
+		    menuTitleId = obj.id;
+		    menuId = "menu" + menuTitleId.substring(10);
+		    indicatorId = "indicator" + menuTitleId.substring(10);
+		
+		    menu = document.getElementById(menuId);
+		    indicator = document.getElementById(indicatorId);
+		    height = menu.style.height;
+		
+		    if (height == "0px" || height == "") {
+		        childAmount = menu.getElementsByTagName('div').length;
+		        dividerAmount = menu.getElementsByTagName('li').length;
+		        height = childAmount * itemHeight + dividerAmount * dividerHeight;
+		        menu.style.height = height + "px";
+		        indicator.style.transform = "rotate(180deg)";
+		    } else {
+		        menu.style.height = "0px";
+		        indicator.style.transform = "rotate(0deg)";
+		    }
+		}
+		</script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="imm"><a href="">
+				<img src="./img/d491b7f73a9e9373ca0fb1f94c13fb3.png" ></a>
+			</div>
+			<div class="p">
+				<h1><strong><a href="">不健不散往期视频&nbsp;&nbsp;&nbsp;</a></strong></h1>
+			</div>
+			
+		</div>
+	
+	<div class="menus">
+	
+	    <div id="menu_title1" class="menu_title" onclick="openMenu(this)">
+	        2020年上半年度
+	        <div class="indicator" id="indicator1">^</div>
+	    </div>
+	    <div class="menu" id="menu1">
+	        <div class="item">
+	            <a href="20205list.html">5月份</a>
+	        </div>
+	        <li class="item_divider"></li>
+	        <div class="item">
+	            <a href="20206list.html">6月份</a>
+	        </div>
+	    </div>
+	
+	    <li class="menu_divider"></li>
+	
+	    <div id="menu_title2" class="menu_title" onclick="openMenu(this)">
+	        2020年下半年度
+	        <div class="indicator" id="indicator2">^</div>
+	    </div>
+	    <div class="menu" id="menu2">
+	        <div class="item">
+	            <a href="20207list.html">7月份</a>
+	        </div>
+	        <li class="item_divider"></li>
+	        <div class="item">
+	            <a href="20208list.html">8月份</a>
+	        </div>
+			<li class="item_divider"></li>
+			<div class="item">
+			    <a href="20209list.html">9月份</a>
+			</div>
+			<li class="item_divider"></li>
+			<div class="item">
+			    <a href="202010list.html">10月份</a>
+			</div>
+			<li class="item_divider"></li>
+			<div class="item">
+			    <a href="202011list.html">11月份</a>
+			</div>
+			<li class="item_divider"></li>
+			<div class="item">
+			    <a href="202012list.html">12月份</a>
+			</div>
+			
+	    </div>
+	
+	    <li class="menu_divider"></li>
+	
+	    <div id="menu_title3" class="menu_title" onclick="openMenu(this)">
+	        2021年上半年度
+	        <div class="indicator" id="indicator3">^</div>
+	    </div>
+	    <div class="menu" id="menu3">
+	        <div class="item">
+	            <a href="20211list.html">1月份</a>
+	        </div>
+	        <li class="item_divider"></li>
+	        <div class="item">
+	            <a href="20212list.html">2月份</a>
+	        </div>
+	        <li class="item_divider"></li>
+	        <div class="item">
+	            <a href="20213list.html">3月份</a>
+	        </div>
+			<li class="item_divider"></li>
+			<div class="item">
+			    <a href="20214list.html">4月份</a>
+			</div>
+			<li class="item_divider"></li>
+			<div class="item">
+			    <a href="20215list.html">5月份</a>
+			</div>
+	    </div>
+		
+	</div>
+	<div id="pss">
+		<p>         《不健不散》栏目是重庆电视台科教频道打造的大型健康服务节目，自2013年元月开播后 ，受到重庆市民的喜爱。</p>
+		<p>感谢您观看《不健不散》。</p>
+		<p>在这里可以快速找到您需要的资源。</p>
+	</div>
+	</body>
+	</html>
+
